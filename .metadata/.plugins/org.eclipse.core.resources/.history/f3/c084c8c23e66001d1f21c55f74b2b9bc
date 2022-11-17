@@ -1,0 +1,35 @@
+public class P24{
+	public static void main(String[] args) {
+		Carbbb car1;
+		car1 = new Carbbb();
+		car1.setcar(1234,20.5);
+		
+	}
+}
+
+class Carbbb
+{
+	//Car類別
+	private int num;
+	private double gas;
+	
+	public void setcar(int n,double g) {
+		num = n;
+		gas = g;
+		System.out.print("車號設" + num);
+		System.out.println(",油量設" + gas);
+	}
+	public void setcar(int n) {
+		num = n;
+		System.out.println("車號設" + num);
+	}
+	public void setcar(int n) {
+		gas = g;
+		System.out.println(",油量設" + gas);
+	}
+	void show()
+	{
+		System.out.println("車號是" + num);
+		System.out.println("油量是" + gas);
+	}
+}

@@ -1,0 +1,30 @@
+public class P14 {
+	public static void main(String[] args) {
+		Cara car1;
+		car1 = new Cara();
+		
+		car1.setnum(1234);
+		car1.setgas("大雞雞");
+	
+		
+	}
+}
+
+class Cara
+{
+	//Car類別
+	int num;
+	double gas;
+	
+	void setnum(int n)
+	{
+		num = n;
+		System.out.println("車號是" + num);
+	}
+	
+	void setgas(char i)
+	{
+		gas = i;
+		System.out.println("油量是" + gas);		
+	}
+}

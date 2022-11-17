@@ -1,0 +1,28 @@
+public class P07 {
+	public static void main(String[] args) {
+		Carrr car1;
+		car1 = new Carrr();
+		
+		car1.num = 1234;
+		car1.gas = 20.5;
+		
+		Carrr car2;
+		car2 = new Carrr();
+		
+		car2.num = 2345;
+		car2.gas = 30.5;
+		
+		System.out.println("1車號是" + car1.num);
+		System.out.println("1油量是" + car1.gas);
+		
+		System.out.println("2車號是" + car2.num);
+		System.out.println("2油量是" + car2.gas);		
+	}
+}
+
+class Carrr
+{
+	//Car類別
+	int num;
+	double gas;
+}
