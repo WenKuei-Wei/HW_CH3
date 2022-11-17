@@ -14,7 +14,6 @@ INDEX VERSION 1.131+C:\Users\wenkuei\Desktop\111android studio\HW_CH3\.metadata\
 3684820612.index
 2338565033.index
 352409503.index
-1994608401.index
 3121174920.index
 34329675.index
 2018390229.index
